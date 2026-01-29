@@ -23,7 +23,7 @@ function DataTable({ data, loading }) {
         ))}
 
         {loading &&
-          Array.from({ length: 8 }).map((_, i) => <SkeletonRow key={i} />)}
+          Array.from({ length: 18 }).map((_, i) => <SkeletonRow key={i} />)}
       </tbody>
     </table>
   );
